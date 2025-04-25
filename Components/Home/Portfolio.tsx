@@ -13,7 +13,7 @@ const Portfolio = () => {
       <Link
            
             href="/All"
-            className="px-4 text-sm items-center bg-blue-500 hover:text-white rounded-full p-2"
+            className="px-4 text-sm items-center bg-blue-500 text-white rounded-full p-2"
           >All</Link>
         {['Web', 'App', 'Graphic'].map((category, index) => (
           <Link

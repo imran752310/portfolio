@@ -45,7 +45,7 @@ const Blogs = () => {
             },
           ].map((blog, index) => (
             <div
-              data-aos="fade-down-left"
+              data-aos="fade-down"
               key={index}
               className="bg-white shadow-md rounded-lg overflow-hidden"
             >
