@@ -2,7 +2,7 @@ import { FaFacebook, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div className='w-[85%] mx-auto border-b relative'>
+    <div className='w-[85%] mx-auto border-b border-b-gray-300 relative'>
       {/* Background Circle */}
       <span data-aos="slide-left"  data-aos-delay="100" className='w-20 h-20 bg-blue-600 blur-3xl -z-20 rounded-full absolute right-0 bottom-auto md:w-40 md:h-40'></span>
       <div data-aos="slide-right" className='container m-auto my-20  px-4 md:px-8 xl:my-10'>

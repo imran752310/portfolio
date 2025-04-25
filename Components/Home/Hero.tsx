@@ -18,7 +18,7 @@ const Hero = () => {
             </span>
           </h1>
           <h2 className="text-gray-500 text-xl pt-5 md:text-2xl">
-            "Professional"
+          &quot;Professional&quot;
             <span className="text-black"> Developer</span>
           </h2>
           <p className="text-gray-600 mt-2 text-base md:text-lg">
@@ -40,7 +40,7 @@ const Hero = () => {
         {/* Image Section */}
         <div data-aos="zoom-in" className="mt-6  w-full">
           <Image
-            src={"/hero.PNG"}
+            src={"/heroo.png"}
             className="rounded-full w-full p-10 "
             width={400}
             height={500}

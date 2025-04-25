@@ -53,7 +53,7 @@ const Contact = () => {
             rows={4}
           />
           <div className="text-center">
-            <button className='bg-blue-500 px-6 py-2 rounded-full text-white text-sm m-2'> Contact Us</button>
+            <button className='bg-blue-500 px-8 py-3  rounded-full text-white text-sm m-2'> Contact Us</button>
           </div>
         </form>
       </div>

@@ -9,12 +9,17 @@ const Portfolio = () => {
       <SectionHeading title='Recent Works' subTitle='Creative Portfolios' text='There are many variations of passages of Lorem Ipsum available, but the
           majority have  suffered alteration in some form.' textColor='' />
 
-      <div className="flex justify-center gap-4 mb-10">
-        {['All', 'Web', 'App', 'Graphic'].map((category, index) => (
+      <div className="flex justify-center gap-4 mb-10 mt-5">
+      <Link
+           
+            href="/All"
+            className="px-4 text-sm items-center bg-blue-500 hover:text-white rounded-full p-2"
+          >All</Link>
+        {['Web', 'App', 'Graphic'].map((category, index) => (
           <Link
             key={index}
             href="/"
-            className="px-4 text-sm text-gray-500 hover:bg-blue-500 hover:text-white hover:rounded-full p-2"
+            className="px-4 text-sm text-gray-600 hover:bg-blue-500 hover:text-white hover:rounded-full p-2"
           >
             {category}
           </Link>
@@ -42,7 +47,7 @@ const Portfolio = () => {
           <div data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-             key={index} className="bg-white shadow-md rounded-lg overflow-hidden hover:bg-blue-600 text-white">
+             key={index} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl text-white">
             <Image
               src={project.image}
               alt={project.title}
@@ -53,7 +58,7 @@ const Portfolio = () => {
             <div className="p-4">
               <h2 className="text-md font-bold text-gray-900 hover:text-blue-300 mb-2">{project.title}</h2>
               <p className="text-gray-600 text-xs mb-4">{project.description}</p>
-              <Link href="/" className="text-xs underline font-bold">
+              <Link href="/" className="text-xs underline font-bold text-black">
                 Read More
               </Link>
             </div>

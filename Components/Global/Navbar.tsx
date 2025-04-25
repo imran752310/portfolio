@@ -8,14 +8,14 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="py-6 w-[85%] mx-auto sticky top-0 z-20 bg-white px-10 rounded-full sm:rounded-sm ">
+    <nav className=" w-[85%] mx-auto py-8 xl:py-10 sticky top-0 z-20 bg-white lg:px-10 md:px-5  ">
       <div data-aos="fade-down" className="container m-auto flex flex-wrap justify-between items-center">
         <div className="flex items-center gap-4">
           <Link
             href="/"
             className="text-blue-500 font-bold text-[24px] flex items-center"
           >
-            <Image src="/next.svg" alt="logo" width={35} height={35} />{" "}
+            <Image src="/next.svg" alt="logo" width={40} height={40} />{" "}
             Portfolio
           </Link>
         </div>

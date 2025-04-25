@@ -1,5 +1,5 @@
 import React from "react";
-import { DiCreativecommonsBadge, DiDatabase, DiUikit, DiVisualstudio, DiWordpress } from "react-icons/di";
+import { DiCreativecommonsBadge, DiDatabase, DiUikit, DiWordpress } from "react-icons/di";
 import SectionHeading from "../Helper/SectionHeading";
 
 const Service = () => {
