@@ -8,12 +8,13 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className=" w-[85%] mx-auto py-8 xl:py-8 sticky top-0 z-20 bg-white lg:px-8 md:px-5 rounded-full ">
+   <div className="py-8 xl:py-8 sticky top-0 z-20 bg-white lg:px-8 md:px-5  ">
+     <nav className=" w-[85%] mx-auto ">
       <div data-aos="fade-down" className="container m-auto flex flex-wrap justify-between items-center">
         <div className="flex items-center gap-4">
           <Link
             href="/"
-            className="text-blue-500 font-bold text-[24px] flex items-center"
+            className="text-blue-500 font-bold text-[30px] flex items-center"
           >
             <Image src="/next.svg" alt="logo" width={40} height={40} />{" "}
             Portfolio
@@ -56,7 +57,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-gray-800 cursor-pointer"
+          className="md:hidden text-gray-800 cursor-pointer text-2xl"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? "✖" : "☰"}
@@ -98,6 +99,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+   </div>
   );
 };
 
