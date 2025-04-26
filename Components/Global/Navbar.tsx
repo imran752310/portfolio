@@ -29,23 +29,23 @@ const Navbar = () => {
             Home
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
-          <Link href="/"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
+          <Link href="/About"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
             About
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
-          <Link href="/"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
+          <Link href="/Service"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
             Service
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
-          <Link href="/"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
+          <Link href="/Portfolio"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
             Portfolio
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
-          <Link href="/"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
+          <Link href="/Skills"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
             Skills
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
-          <Link href="/"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
+          <Link href="/Contact"  className="text-gray-800 group hover:text-sky-600 transition duration-300 ">
             Contact Us
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
           </Link>
@@ -71,23 +71,23 @@ const Navbar = () => {
               Home
               
             </Link>
-            <Link href="/" className="block py-2 text-gray-800 hover:text-white transition duration-300">
+            <Link href="/About" className="block py-2 text-gray-800 hover:text-white transition duration-300">
               About
               
             </Link>
-            <Link href="/" className="block py-2 text-gray-800 hover:text-white transition duration-300">
+            <Link href="/Service" className="block py-2 text-gray-800 hover:text-white transition duration-300">
               Service
               
             </Link>
-            <Link href="/" className="block py-2 text-gray-800 hover:text-white transition duration-300">
+            <Link href="/Portfolio" className="block py-2 text-gray-800 hover:text-white transition duration-300">
             Portfolio
              
           </Link>
-          <Link href="/" className="block py-2 text-gray-800 hover:text-white transition duration-300">
+          <Link href="/Skills" className="block py-2 text-gray-800 hover:text-white transition duration-300">
             Skills
               
           </Link>
-            <Link href="/"className="block py-2 text-gray-800 hover:text-white transition duration-300">
+            <Link href="/Contact"className="block py-2 text-gray-800 hover:text-white transition duration-300">
               Contact Us
               
             </Link>
